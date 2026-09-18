@@ -1,6 +1,10 @@
 "use strict";
 
 // implement debounce
+
+/*
+Debounce:  it runs only after wait milliseconds have elapsed since the debounced function was last called.
+*/
 function debounce(func, wait) {
   let timer;
 
